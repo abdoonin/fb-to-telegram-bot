@@ -6,8 +6,8 @@ import json
 TELEGRAM_TOKEN = os.environ.get('TELEGRAM_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-# يمكننا جلب روابط متعددة مفصولة بفاصلة أو رابط واحد
-FEED_URLS_ENV = os.environ.get('https://www.facebook.com/AljazeeraTechnology', 'https://www.facebook.com/aljazeerachannel')
+# قراءة روابط الـ RSS من إعدادات GitHub Secrets (متغير FEED_URLS)
+FEED_URLS_ENV = os.environ.get('FEED_URLS', '')
 FEED_URLS = [url.strip() for url in FEED_URLS_ENV.split(',') if url.strip()]
 
 SEEN_FILE = 'seen_posts.json'
@@ -52,12 +52,12 @@ def main():
             if post_id not in seen_posts:
                 title = entry.get('title', 'منشور جديد')
                 link = entry.link
-                message = f"📢 *منشور جديد من فيسبوك*\n\n{title}\n\n🔗 [رابط المنشور الأصلي]({link})"
+                message = f"📢 *خبر / منشور جديد*\n\n{title}\n\n🔗 [رابط المصدر]({link})"
                 
                 send_telegram(message)
                 new_seen.append(post_id)
 
-    # الاحتفاظ بآخر 150 منشوراً فقط لمنع تضخم الملف
+    # الاحتفاظ بآخر 150 منشوراً فقط لمنع تضخم ملف التخزين المؤقت
     if len(new_seen) > 150:
         new_seen = new_seen[-150:]
 
