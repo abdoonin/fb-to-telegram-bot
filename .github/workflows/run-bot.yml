@@ -2,8 +2,8 @@ name: Run Facebook to Telegram Bot
 
 on:
   schedule:
-    # يتنفذ البوت تلقائياً كل ساعة (يمكنك تعديله لاحقاً)
-    - cron: '0 * * * *'
+    # يعمل تلقائياً رأس كل ساعة
+    - cron: '*/20 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -35,4 +35,8 @@ jobs:
           git config --global user.name 'Bot Action'
           git config --global user.email 'bot@actions.local'
           git add seen_posts.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update seen posts cache" && git push)
+          git diff --quiet && git diff --staged --quiet || (
+            git commit -m "Update seen posts cache" &&
+            git pull --rebase origin main &&
+            git push origin main
+          )
