@@ -2,8 +2,7 @@ name: Run Facebook to Telegram Bot
 
 on:
   schedule:
-    # يعمل تلقائياً رأس كل ساعة
-    - cron: '*/20 * * * *'
+   - cron: '*/30 * * * *'
   workflow_dispatch:
 
 jobs:
