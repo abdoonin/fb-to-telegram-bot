@@ -1,9 +1,4 @@
 [
-  "https://artificialanalysis.ai/models/inkling/providers",
-  "https://artificialanalysis.ai/models/agnes-2-5-pro-alpha/providers",
-  "https://artificialanalysis.ai/models/agnes-2-5-pro-alpha",
-  "https://artificialanalysis.ai/models/claude-opus-5/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5-xhigh/providers",
   "https://artificialanalysis.ai/models/claude-opus-5-high/providers",
   "https://artificialanalysis.ai/models/claude-opus-5-medium/providers",
   "https://artificialanalysis.ai/models/claude-opus-5-low/providers",
@@ -198,5 +193,10 @@
   "https://artificialanalysis.ai/models/gpt-6-astra-low",
   "https://artificialanalysis.ai/models/glm-5-3/providers",
   "https://artificialanalysis.ai/models/glm-5-3/providers",
-  "https://artificialanalysis.ai/models/glm-5-3/providers"
+  "https://artificialanalysis.ai/models/glm-5-3/providers",
+  "2824967009",
+  "1645916780",
+  "3641314434",
+  "4167153178",
+  "321308767"
 ]
