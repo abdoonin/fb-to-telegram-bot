@@ -1,12 +1,4 @@
 [
-  "https://artificialanalysis.ai/models/claude-opus-5-high/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5-medium/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5-low/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5-xhigh/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5-high/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5-medium/providers",
-  "https://artificialanalysis.ai/models/claude-opus-5-low/providers",
   "https://artificialanalysis.ai/models/claude-opus-5",
   "https://artificialanalysis.ai/models/claude-opus-5-xhigh",
   "https://artificialanalysis.ai/models/claude-opus-5-high",
@@ -198,5 +190,13 @@
   "https://artificialanalysis.ai/models/gpt-6-astra-low",
   "https://artificialanalysis.ai/models/glm-5-3/providers",
   "https://artificialanalysis.ai/models/glm-5-3/providers",
-  "https://artificialanalysis.ai/models/glm-5-3/providers"
+  "https://artificialanalysis.ai/models/glm-5-3/providers",
+  "https://artificialanalysis.ai/models/gpt-6-astra-low/providers",
+  "https://artificialanalysis.ai/models/gpt-6-astra-xhigh/providers",
+  "https://artificialanalysis.ai/models/gpt-6-astra/providers",
+  "https://artificialanalysis.ai/models/gpt-6-astra-medium/providers",
+  "https://artificialanalysis.ai/models/gpt-6-astra-high/providers",
+  "https://artificialanalysis.ai/models/glm-5-3-flash/providers",
+  "https://artificialanalysis.ai/models/kimi-k3/providers",
+  "https://artificialanalysis.ai/models/kimi-k3-low/providers"
 ]
