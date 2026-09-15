@@ -1,12 +1,4 @@
 [
-  "https://artificialanalysis.ai/video/providers/minimax-h3",
-  "https://artificialanalysis.ai/video/providers/minimax-h3",
-  "https://artificialanalysis.ai/models/glm-5-2/providers",
-  "https://artificialanalysis.ai/models/inkling-small/providers",
-  "https://artificialanalysis.ai/models/deepseek-v4-pro-0424/providers",
-  "https://artificialanalysis.ai/models/muse-glimmer",
-  "https://artificialanalysis.ai/articles/muse-glimmer",
-  "https://artificialanalysis.ai/models/nemotron-3-5-lightning",
   "https://artificialanalysis.ai/articles/nemotron-3-5-lightning-launch",
   "https://artificialanalysis.ai/models/grok-4-6/providers",
   "https://artificialanalysis.ai/models/solar-pro4/providers",
@@ -198,5 +190,13 @@
   "https://artificialanalysis.ai/models/glm-5-3-flash/providers",
   "https://artificialanalysis.ai/models/glm-5-3/providers",
   "https://artificialanalysis.ai/models/gpt-6-astra/providers",
-  "https://artificialanalysis.ai/models/kimi-k3/providers"
+  "https://artificialanalysis.ai/models/kimi-k3/providers",
+  "321308767",
+  "https://artificialanalysis.ai/models/gpt-6-astra-low/providers",
+  "https://artificialanalysis.ai/models/gpt-6-astra-xhigh/providers",
+  "https://artificialanalysis.ai/models/gpt-6-astra-medium/providers",
+  "https://artificialanalysis.ai/models/glm-5-2-non-reasoning/providers",
+  "https://artificialanalysis.ai/models/inkling/providers",
+  "https://artificialanalysis.ai/models/muse-glimmer/providers",
+  "https://artificialanalysis.ai/models/kimi-k2-7-code/providers"
 ]
